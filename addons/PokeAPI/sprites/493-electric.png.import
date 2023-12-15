@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://bavufj2ktcgql"
+path="res://.godot/imported/493-electric.png-2a5f6eacd8b4a2218d50f8bb6c5cdbd3.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/493-electric.png"
+dest_files=["res://.godot/imported/493-electric.png-2a5f6eacd8b4a2218d50f8bb6c5cdbd3.image"]
+
+[params]
+

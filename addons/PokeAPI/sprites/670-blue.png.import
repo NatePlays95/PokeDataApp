@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://cffvwnytradqb"
+path="res://.godot/imported/670-blue.png-b09b5e3cc4f19c97c8c87525ff3b898d.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/670-blue.png"
+dest_files=["res://.godot/imported/670-blue.png-b09b5e3cc4f19c97c8c87525ff3b898d.image"]
+
+[params]
+

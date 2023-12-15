@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://pc2q16a4vxhk"
+path="res://.godot/imported/773-water.png-42ad89790f06a50b96a8611f1cff519c.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/773-water.png"
+dest_files=["res://.godot/imported/773-water.png-42ad89790f06a50b96a8611f1cff519c.image"]
+
+[params]
+

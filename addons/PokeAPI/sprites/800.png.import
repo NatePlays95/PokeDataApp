@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://cq32vefundf0k"
+path="res://.godot/imported/800.png-87f4b5d5529f674698f0aca3582e2c62.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/800.png"
+dest_files=["res://.godot/imported/800.png-87f4b5d5529f674698f0aca3582e2c62.image"]
+
+[params]
+

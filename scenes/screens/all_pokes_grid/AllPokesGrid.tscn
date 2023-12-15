@@ -1,0 +1,148 @@
+[gd_scene load_steps=8 format=3 uid="uid://b21bprpdvs3sl"]
+
+[ext_resource type="StyleBox" uid="uid://cq8f1fbslkoyl" path="res://assets/themes/stylebox/background.tres" id="1_ol4vx"]
+[ext_resource type="Script" path="res://scenes/screens/all_pokes_grid/AllPokesGrid.gd" id="1_r6has"]
+[ext_resource type="Theme" uid="uid://cbrpa8ahtv2ju" path="res://assets/themes/default.theme" id="1_y1jhr"]
+[ext_resource type="Script" path="res://scenes/classes/InfiniteScrollContainer.gd" id="2_rr7pa"]
+[ext_resource type="Texture2D" uid="uid://cw0y1k0quyrlr" path="res://assets/images/icons/chevron-left-svgrepo-com.svg" id="3_agf15"]
+[ext_resource type="Texture2D" uid="uid://d03ttqs6r4y0g" path="res://assets/images/icons/search-svgrepo-com.svg" id="5_kkl0v"]
+[ext_resource type="Texture2D" uid="uid://b55vc8y1ns46a" path="res://assets/images/icons/close-svgrepo-com.svg" id="6_x3iyn"]
+
+[node name="AllPokesGrid" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_y1jhr")
+theme_override_styles/panel = ExtResource("1_ol4vx")
+script = ExtResource("1_r6has")
+
+[node name="HTTPRequestAllPokes" type="HTTPRequest" parent="."]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="BtnReturn" type="TextureButton" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+mouse_filter = 1
+action_mode = 0
+texture_normal = ExtResource("3_agf15")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="LabelScreenName" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Pokedex Search
+"
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer"]
+visible = false
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 32
+
+[node name="SearchBar" type="LineEdit" parent="VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+placeholder_text = "Search names"
+
+[node name="BtnSearchDelete" type="TextureButton" parent="VBoxContainer/SearchBar"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -56.0
+offset_top = -20.0
+offset_right = -16.0
+offset_bottom = 20.0
+grow_horizontal = 0
+grow_vertical = 2
+size_flags_horizontal = 8
+size_flags_vertical = 4
+mouse_filter = 1
+action_mode = 0
+texture_normal = ExtResource("6_x3iyn")
+ignore_texture_size = true
+stretch_mode = 4
+
+[node name="BtnSearchGlass" type="TextureButton" parent="VBoxContainer/SearchBar"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 16.0
+offset_top = -20.0
+offset_right = 56.0
+offset_bottom = 20.0
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+mouse_filter = 1
+action_mode = 0
+texture_normal = ExtResource("5_kkl0v")
+ignore_texture_size = true
+stretch_mode = 4
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+visible = false
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 32
+
+[node name="Scroll" type="ScrollContainer" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+follow_focus = true
+horizontal_scroll_mode = 0
+script = ExtResource("2_rr7pa")
+scroll_margin_bottom = 100
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/Scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="GridPokemon" type="GridContainer" parent="VBoxContainer/Scroll/MarginContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 12
+columns = 3
+
+[node name="_Debug" type="Control" parent="."]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="LabelScrollRate" type="Label" parent="_Debug"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -157.0
+offset_top = -53.0
+grow_horizontal = 0
+grow_vertical = 0
+horizontal_alignment = 2
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/BtnReturn" to="." method="_on_btn_return_pressed"]
+[connection signal="pressed" from="VBoxContainer/SearchBar/BtnSearchDelete" to="." method="_on_btn_search_delete_pressed"]
+[connection signal="pressed" from="VBoxContainer/SearchBar/BtnSearchGlass" to="." method="_on_btn_search_glass_pressed"]
+[connection signal="bottom_reached" from="VBoxContainer/Scroll" to="." method="_on_scroll_bottom_reached"]
+[connection signal="top_reached" from="VBoxContainer/Scroll" to="." method="_on_scroll_top_reached"]

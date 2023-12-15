@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://crqnxgvwrcxfd"
+path="res://.godot/imported/376-mega.png-33775a895354b4c69f9daf93b5c54f4a.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/376-mega.png"
+dest_files=["res://.godot/imported/376-mega.png-33775a895354b4c69f9daf93b5c54f4a.image"]
+
+[params]
+

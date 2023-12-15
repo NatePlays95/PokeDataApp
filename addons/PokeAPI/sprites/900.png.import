@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://cvopw33vxbmgh"
+path="res://.godot/imported/900.png-e643c750288cfee597907634795f6d74.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/900.png"
+dest_files=["res://.godot/imported/900.png-e643c750288cfee597907634795f6d74.image"]
+
+[params]
+

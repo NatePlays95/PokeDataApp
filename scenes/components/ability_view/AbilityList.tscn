@@ -1,0 +1,108 @@
+[gd_scene load_steps=3 format=3 uid="uid://tsitt4tf2t4y"]
+
+[ext_resource type="StyleBox" uid="uid://bfnysamfmuo6b" path="res://assets/themes/stylebox/flat.tres" id="1_r2l56"]
+[ext_resource type="Script" path="res://scenes/components/ability_view/AbilityList.gd" id="2_xpjhf"]
+
+[node name="AbilityList" type="PanelContainer"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 32.0
+grow_horizontal = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("1_r2l56")
+script = ExtResource("2_xpjhf")
+
+[node name="HTTPRequestAbility" type="HTTPRequest" parent="."]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="LabelTitle" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+mouse_filter = 1
+theme_override_font_sizes/font_size = 30
+text = "Abilities"
+horizontal_alignment = 1
+
+[node name="HBoxAbilities" type="HBoxContainer" parent="VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+
+[node name="BtnAbility1" type="Button" parent="VBoxContainer/HBoxAbilities"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 7
+mouse_filter = 1
+toggle_mode = true
+
+[node name="BtnAbility2" type="Button" parent="VBoxContainer/HBoxAbilities"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+size_flags_horizontal = 7
+mouse_filter = 1
+toggle_mode = true
+
+[node name="BtnSeparator" type="VSeparator" parent="VBoxContainer/HBoxAbilities"]
+visible = false
+layout_mode = 2
+mouse_filter = 1
+theme_override_constants/separation = 16
+
+[node name="BtnAbilityHidden" type="Button" parent="VBoxContainer/HBoxAbilities"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+size_flags_horizontal = 7
+mouse_filter = 1
+toggle_mode = true
+
+[node name="Control" type="Control" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
+[node name="AbilityScroll" type="ScrollContainer" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 2
+horizontal_scroll_mode = 0
+
+[node name="LabelPopupEffect" type="Label" parent="VBoxContainer/AbilityScroll"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(1, 1)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 2
+text = "Now that a type variation has been created you can apply it to your nodes. In the inspector dock, under the Theme property of a control node, you can find the Theme Type Variation property. It is empty by default, which means that only the base type has an effect on this node.
+
+You can either select a type variation from a dropdown list, or input its name manually. Variations appear on the list only if the type variation belongs to the project-wide theme, which you can configure in the project settings. For any other case you have to input the name of the variation manually. Click on the pencil icon to the right. Then type in the name of the type variation and click the check mark icon or press enter. If a type variation with that name exists it will now be used by the node."
+autowrap_mode = 2
+
+[node name="PopupPanel" type="PopupPanel" parent="."]
+title = "Ability"
+initial_position = 1
+size = Vector2i(500, 100)
+content_scale_aspect = 4
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="PopupPanel"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 496.0
+offset_bottom = 96.0
+grow_horizontal = 2
+size_flags_vertical = 0
+
+[node name="LabelPopupAbilityName" type="Label" parent="PopupPanel/VBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 1
+mouse_filter = 1
+theme_override_font_sizes/font_size = 30
+text = "Clorophyll"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="VBoxContainer/HBoxAbilities/BtnAbility1" to="." method="_on_btn_ability_1_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxAbilities/BtnAbility2" to="." method="_on_btn_ability_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxAbilities/BtnAbilityHidden" to="." method="_on_btn_ability_hidden_pressed"]

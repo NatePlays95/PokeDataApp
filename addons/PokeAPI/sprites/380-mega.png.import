@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://j6mdrail0fmo"
+path="res://.godot/imported/380-mega.png-10bc50be8a80d2202bea8bc3544bb0d1.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/380-mega.png"
+dest_files=["res://.godot/imported/380-mega.png-10bc50be8a80d2202bea8bc3544bb0d1.image"]
+
+[params]
+

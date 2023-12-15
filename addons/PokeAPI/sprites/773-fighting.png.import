@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://0lvgm2tu5bnb"
+path="res://.godot/imported/773-fighting.png-73aa9a841c5e7109ad50a358659d9175.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/773-fighting.png"
+dest_files=["res://.godot/imported/773-fighting.png-73aa9a841c5e7109ad50a358659d9175.image"]
+
+[params]
+

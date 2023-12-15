@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://bohfr8oviv81u"
+path="res://.godot/imported/10101.png-07360f518b27fc8ca2d67818311fbee8.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/10101.png"
+dest_files=["res://.godot/imported/10101.png-07360f518b27fc8ca2d67818311fbee8.image"]
+
+[params]
+

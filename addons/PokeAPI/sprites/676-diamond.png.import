@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://b8jl4nwvxnyjf"
+path="res://.godot/imported/676-diamond.png-f4380d219fa99e8ec88c2063fbe88673.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/676-diamond.png"
+dest_files=["res://.godot/imported/676-diamond.png-f4380d219fa99e8ec88c2063fbe88673.image"]
+
+[params]
+

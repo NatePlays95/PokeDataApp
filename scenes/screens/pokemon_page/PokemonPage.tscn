@@ -1,0 +1,137 @@
+[gd_scene load_steps=12 format=3 uid="uid://jvtj68fmif6r"]
+
+[ext_resource type="Theme" uid="uid://cbrpa8ahtv2ju" path="res://assets/themes/default.theme" id="1_q1a0q"]
+[ext_resource type="Script" path="res://scenes/screens/pokemon_page/PokemonPage.gd" id="2_5yse1"]
+[ext_resource type="StyleBox" uid="uid://cq8f1fbslkoyl" path="res://assets/themes/stylebox/background.tres" id="2_lw01m"]
+[ext_resource type="StyleBox" uid="uid://bfnysamfmuo6b" path="res://assets/themes/stylebox/flat.tres" id="3_8soqi"]
+[ext_resource type="StyleBox" uid="uid://s45lghw48ome" path="res://assets/themes/stylebox/body.tres" id="4_4jsar"]
+[ext_resource type="Texture2D" uid="uid://cw0y1k0quyrlr" path="res://assets/images/icons/chevron-left-svgrepo-com.svg" id="4_doajg"]
+[ext_resource type="PackedScene" uid="uid://b765crfabuk5p" path="res://scenes/screens/pokemon_page/PokemonPageImage.tscn" id="6_mgu0b"]
+[ext_resource type="PackedScene" uid="uid://bvxhw5e6vhlkl" path="res://scenes/components/flavor_text/FlavorText.tscn" id="7_qxiew"]
+[ext_resource type="PackedScene" uid="uid://tsitt4tf2t4y" path="res://scenes/components/ability_view/AbilityList.tscn" id="8_ckdfo"]
+[ext_resource type="PackedScene" uid="uid://cvkscykapuihx" path="res://scenes/components/base_stats/BaseStats.tscn" id="9_sn0h1"]
+[ext_resource type="PackedScene" uid="uid://6ai277kyue7l" path="res://scenes/components/evo_chain/EvoChain.tscn" id="10_a452n"]
+
+[node name="PokemonPage" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_q1a0q")
+theme_override_styles/panel = ExtResource("2_lw01m")
+script = ExtResource("2_5yse1")
+
+[node name="HTTPRequestPoke" type="HTTPRequest" parent="."]
+unique_name_in_owner = true
+
+[node name="HTTPRequestImage" type="HTTPRequest" parent="."]
+unique_name_in_owner = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="BtnReturn" type="TextureButton" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+mouse_filter = 1
+action_mode = 0
+texture_normal = ExtResource("4_doajg")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="LabelScreenName" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Pokedex Entry"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+follow_focus = true
+vertical_scroll_mode = 3
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("4_4jsar")
+
+[node name="VBox" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/PanelContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="PanelHeader" type="PanelContainer" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox"]
+layout_mode = 2
+theme_override_styles/panel = ExtResource("3_8soqi")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox/PanelHeader"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox/PanelHeader/HBoxContainer"]
+layout_mode = 2
+
+[node name="LabelPokemonName" type="Label" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox/PanelHeader/HBoxContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Bulbasaur"
+
+[node name="LabelGenera" type="Label" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox/PanelHeader/HBoxContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"LabelSecondary"
+theme_override_font_sizes/font_size = 20
+text = "Seed Pokemon
+HT: 0.7 m  WT: 6.9 kg"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox/PanelHeader/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="LabelPokedexNum" type="Label" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox/PanelHeader/HBoxContainer/VBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_font_sizes/font_size = 40
+text = "#0000"
+horizontal_alignment = 2
+
+[node name="LabelTypes" type="Label" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox/PanelHeader/HBoxContainer/VBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_font_sizes/font_size = 40
+text = "Grass/Poison"
+horizontal_alignment = 2
+
+[node name="PokemonPageImage" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox" instance=ExtResource("6_mgu0b")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Components" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="FlavorText" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox/Components" instance=ExtResource("7_qxiew")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="AbilityList" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox/Components" instance=ExtResource("8_ckdfo")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="BaseStats" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox/Components" instance=ExtResource("9_sn0h1")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="EvoChain" parent="VBoxContainer/ScrollContainer/PanelContainer/VBox/Components" instance=ExtResource("10_a452n")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/BtnReturn" to="." method="_on_btn_return_pressed"]

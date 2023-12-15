@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://dbrtsxsimbm7p"
+path="res://.godot/imported/648-pirouette.png-934f80f7fc3a23d685c4c7cdb9ecfef5.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/648-pirouette.png"
+dest_files=["res://.godot/imported/648-pirouette.png-934f80f7fc3a23d685c4c7cdb9ecfef5.image"]
+
+[params]
+

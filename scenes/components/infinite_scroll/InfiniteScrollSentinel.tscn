@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgns7ycwesqnh"]
+
+[ext_resource type="Script" path="res://scenes/components/infinite_scroll/InfiniteScrollSentinel.gd" id="1_hdwh0"]
+
+[node name="InfiniteScrollSentinel" type="ColorRect"]
+script = ExtResource("1_hdwh0")

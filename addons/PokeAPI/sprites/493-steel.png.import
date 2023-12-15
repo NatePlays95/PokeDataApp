@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://cn4tmstj0xlrg"
+path="res://.godot/imported/493-steel.png-1c4f1e360b926334411f2706c6a2d5e7.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/493-steel.png"
+dest_files=["res://.godot/imported/493-steel.png-1c4f1e360b926334411f2706c6a2d5e7.image"]
+
+[params]
+

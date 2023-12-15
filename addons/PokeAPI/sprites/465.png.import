@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://ocmygaugasgp"
+path="res://.godot/imported/465.png-5d49e585c86739bf805f9f85f5dcd424.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/465.png"
+dest_files=["res://.godot/imported/465.png-5d49e585c86739bf805f9f85f5dcd424.image"]
+
+[params]
+

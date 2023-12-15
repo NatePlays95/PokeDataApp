@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://bk52m1jd0t36r"
+path="res://.godot/imported/555-standard.png-0ae1357b75487363f508ca6c4996aec5.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/555-standard.png"
+dest_files=["res://.godot/imported/555-standard.png-0ae1357b75487363f508ca6c4996aec5.image"]
+
+[params]
+

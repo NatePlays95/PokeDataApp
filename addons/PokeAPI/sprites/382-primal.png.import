@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://b0ix3ajppwmtd"
+path="res://.godot/imported/382-primal.png-d4a1ecfad3938ba5317e398bf4fc81c8.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/382-primal.png"
+dest_files=["res://.godot/imported/382-primal.png-d4a1ecfad3938ba5317e398bf4fc81c8.image"]
+
+[params]
+

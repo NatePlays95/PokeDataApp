@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://bcdfmwbl617xk"
+path="res://.godot/imported/150-mega-y.png-4bdc201f383750a729bfa8d1b440cdd5.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/150-mega-y.png"
+dest_files=["res://.godot/imported/150-mega-y.png-4bdc201f383750a729bfa8d1b440cdd5.image"]
+
+[params]
+

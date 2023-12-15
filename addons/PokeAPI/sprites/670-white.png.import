@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://d0s04gykfdk5x"
+path="res://.godot/imported/670-white.png-4ac058fdf3c2e58266cdefc0e3bebe1c.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/670-white.png"
+dest_files=["res://.godot/imported/670-white.png-4ac058fdf3c2e58266cdefc0e3bebe1c.image"]
+
+[params]
+

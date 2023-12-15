@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://1fvw1ple0cfb"
+path="res://.godot/imported/678-male.png-f683e2da9ff2be4cce6de65e20feb01f.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/678-male.png"
+dest_files=["res://.godot/imported/678-male.png-f683e2da9ff2be4cce6de65e20feb01f.image"]
+
+[params]
+

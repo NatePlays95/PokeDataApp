@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://cjvmh512nawd6"
+path="res://.godot/imported/493-fire.png-2df1a3e1ed82503e8cb47e6abacaff44.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/493-fire.png"
+dest_files=["res://.godot/imported/493-fire.png-2df1a3e1ed82503e8cb47e6abacaff44.image"]
+
+[params]
+

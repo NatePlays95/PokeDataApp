@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://dtmcdwsovwxpg"
+path="res://.godot/imported/201-exclamation.png-b155341939991940a15fc8866f1ba472.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/201-exclamation.png"
+dest_files=["res://.godot/imported/201-exclamation.png-b155341939991940a15fc8866f1ba472.image"]
+
+[params]
+

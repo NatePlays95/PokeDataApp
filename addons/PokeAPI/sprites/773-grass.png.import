@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://bq2nyog15p8jg"
+path="res://.godot/imported/773-grass.png-bffc84ac2e91197aea6a4a1e7d159e24.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/773-grass.png"
+dest_files=["res://.godot/imported/773-grass.png-bffc84ac2e91197aea6a4a1e7d159e24.image"]
+
+[params]
+

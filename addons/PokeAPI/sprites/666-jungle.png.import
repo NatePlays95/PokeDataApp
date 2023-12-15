@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://qo3arsuan34x"
+path="res://.godot/imported/666-jungle.png-c3fd35c519d1580f4b46b82afe7591c3.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/666-jungle.png"
+dest_files=["res://.godot/imported/666-jungle.png-c3fd35c519d1580f4b46b82afe7591c3.image"]
+
+[params]
+

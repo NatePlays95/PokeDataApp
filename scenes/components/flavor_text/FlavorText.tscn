@@ -1,0 +1,59 @@
+[gd_scene load_steps=4 format=3 uid="uid://bvxhw5e6vhlkl"]
+
+[ext_resource type="Theme" uid="uid://cbrpa8ahtv2ju" path="res://assets/themes/default.theme" id="1_xb207"]
+[ext_resource type="Script" path="res://scenes/components/flavor_text/FlavorText.gd" id="2_7phqt"]
+[ext_resource type="StyleBox" uid="uid://bfnysamfmuo6b" path="res://assets/themes/stylebox/flat.tres" id="2_85800"]
+
+[node name="FlavorText" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("1_xb207")
+theme_override_styles/panel = ExtResource("2_85800")
+script = ExtResource("2_7phqt")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="LabelTitle" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "Description"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+visible = false
+layout_mode = 2
+
+[node name="LabelFlavor" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+text = "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger."
+autowrap_mode = 2
+
+[node name="Scroll" type="ScrollContainer" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+follow_focus = true
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 0
+
+[node name="HBox" type="HBoxContainer" parent="VBoxContainer/Scroll"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+alignment = 1
+
+[node name="LabelGameName" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+theme_type_variation = &"LabelSecondary"
+text = "Violet"
+horizontal_alignment = 1
+autowrap_mode = 2

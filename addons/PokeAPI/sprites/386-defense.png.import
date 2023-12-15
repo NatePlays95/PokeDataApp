@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://r30sbx5in623"
+path="res://.godot/imported/386-defense.png-a899b027fa4f692ec8d0540797a0bfef.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/386-defense.png"
+dest_files=["res://.godot/imported/386-defense.png-a899b027fa4f692ec8d0540797a0bfef.image"]
+
+[params]
+

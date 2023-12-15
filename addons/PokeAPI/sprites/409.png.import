@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://b54k1v02go5rr"
+path="res://.godot/imported/409.png-0b35db451b3e93ef47afd04fd9b6670c.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/409.png"
+dest_files=["res://.godot/imported/409.png-0b35db451b3e93ef47afd04fd9b6670c.image"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://lpbv34vlqphp"
+path="res://.godot/imported/445.png-dc9a90e95d7439f41f58b75f3e85c6ea.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/445.png"
+dest_files=["res://.godot/imported/445.png-dc9a90e95d7439f41f58b75f3e85c6ea.image"]
+
+[params]
+

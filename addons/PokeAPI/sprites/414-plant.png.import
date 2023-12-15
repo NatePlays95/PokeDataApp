@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://08oaii7k5bop"
+path="res://.godot/imported/414-plant.png-f9c192edcad9a472e6d75ec592c795d2.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/414-plant.png"
+dest_files=["res://.godot/imported/414-plant.png-f9c192edcad9a472e6d75ec592c795d2.image"]
+
+[params]
+

@@ -1,0 +1,71 @@
+[gd_scene load_steps=7 format=3 uid="uid://b765crfabuk5p"]
+
+[ext_resource type="Script" path="res://scenes/screens/pokemon_page/PokemonPageImage.gd" id="1_2j52f"]
+[ext_resource type="Texture2D" uid="uid://bbsafn7slx68o" path="res://assets/images/icons/icons8-sparkle-50.png" id="2_irtns"]
+[ext_resource type="Texture2D" uid="uid://bhwj25j0dqhxm" path="res://assets/images/icons/pokeball_line_small_disabled.svg" id="2_m2l2w"]
+[ext_resource type="Texture2D" uid="uid://bsesyb5taurmr" path="res://assets/images/icons/icons8-sparkle-50-white.png" id="3_ghr76"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7gj3g"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vbrqe"]
+content_margin_left = 8.0
+content_margin_top = 8.0
+content_margin_right = 8.0
+content_margin_bottom = 8.0
+bg_color = Color(0.160784, 0.164706, 0.2, 1)
+corner_radius_top_left = 32
+corner_radius_top_right = 32
+corner_radius_bottom_right = 32
+corner_radius_bottom_left = 32
+
+[node name="PokemonPageImage" type="PanelContainer"]
+custom_minimum_size = Vector2(512, 512)
+size_flags_horizontal = 4
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxEmpty_7gj3g")
+script = ExtResource("1_2j52f")
+
+[node name="HTTPRequestImage" type="HTTPRequest" parent="."]
+
+[node name="HTTPRequestShiny" type="HTTPRequest" parent="."]
+
+[node name="TexBg" type="TextureRect" parent="."]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.278431)
+z_index = 1
+layout_mode = 2
+texture = ExtResource("2_m2l2w")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="TexNormal" type="TextureRect" parent="."]
+unique_name_in_owner = true
+z_index = 1
+layout_mode = 2
+expand_mode = 2
+stretch_mode = 5
+
+[node name="TexShiny" type="TextureRect" parent="."]
+unique_name_in_owner = true
+visible = false
+z_index = 1
+layout_mode = 2
+expand_mode = 2
+stretch_mode = 5
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_vbrqe")
+
+[node name="BtnShiny" type="TextureButton" parent="PanelContainer"]
+z_index = 1
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+toggle_mode = true
+texture_normal = ExtResource("2_irtns")
+texture_pressed = ExtResource("3_ghr76")
+
+[connection signal="toggled" from="PanelContainer/BtnShiny" to="." method="_on_btn_shiny_toggled"]

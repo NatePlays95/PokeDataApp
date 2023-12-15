@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://dgj8k1s015hqb"
+path="res://.godot/imported/649-shock.png-70f523b35d64be7c43d300c6f9390f22.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/649-shock.png"
+dest_files=["res://.godot/imported/649-shock.png-70f523b35d64be7c43d300c6f9390f22.image"]
+
+[params]
+

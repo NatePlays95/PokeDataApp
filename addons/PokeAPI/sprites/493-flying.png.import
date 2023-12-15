@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://diq1mqpihjr1l"
+path="res://.godot/imported/493-flying.png-d3950945a47ccd9fe297bec4557fd1b3.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/493-flying.png"
+dest_files=["res://.godot/imported/493-flying.png-d3950945a47ccd9fe297bec4557fd1b3.image"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://csh4650b5bxge"
+path="res://.godot/imported/360.png-f2f393f27ddee8f463de2973b52fdc1d.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/360.png"
+dest_files=["res://.godot/imported/360.png-f2f393f27ddee8f463de2973b52fdc1d.image"]
+
+[params]
+

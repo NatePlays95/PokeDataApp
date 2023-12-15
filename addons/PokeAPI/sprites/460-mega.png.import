@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://c6aucjp6pidns"
+path="res://.godot/imported/460-mega.png-462ef72b8c027fd5bfbdab52de4cffd5.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/460-mega.png"
+dest_files=["res://.godot/imported/460-mega.png-462ef72b8c027fd5bfbdab52de4cffd5.image"]
+
+[params]
+

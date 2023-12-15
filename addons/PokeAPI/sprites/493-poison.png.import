@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://dloh2j2go8m87"
+path="res://.godot/imported/493-poison.png-374554ba17838209b9218a125bc75ee2.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/493-poison.png"
+dest_files=["res://.godot/imported/493-poison.png-374554ba17838209b9218a125bc75ee2.image"]
+
+[params]
+

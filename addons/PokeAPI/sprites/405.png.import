@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://bvavno1mkfvbl"
+path="res://.godot/imported/405.png-6e4138c3a1ae75c62334f4a2d6199ce8.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/405.png"
+dest_files=["res://.godot/imported/405.png-6e4138c3a1ae75c62334f4a2d6199ce8.image"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://ptempbbmgls"
+path="res://.godot/imported/216.png-81cf28caddba7a830da5c82298733293.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/216.png"
+dest_files=["res://.godot/imported/216.png-81cf28caddba7a830da5c82298733293.image"]
+
+[params]
+

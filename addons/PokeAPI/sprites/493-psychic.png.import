@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://dwrvo60aqwvqm"
+path="res://.godot/imported/493-psychic.png-836fd9d70134e23ec9288b5748402a3d.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/493-psychic.png"
+dest_files=["res://.godot/imported/493-psychic.png-836fd9d70134e23ec9288b5748402a3d.image"]
+
+[params]
+

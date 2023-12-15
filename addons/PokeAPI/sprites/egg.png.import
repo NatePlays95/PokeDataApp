@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://dxymcmk4acl1"
+path="res://.godot/imported/egg.png-768041756a8f22b3d07e5dec93d79de2.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/egg.png"
+dest_files=["res://.godot/imported/egg.png-768041756a8f22b3d07e5dec93d79de2.image"]
+
+[params]
+

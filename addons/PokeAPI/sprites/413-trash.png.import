@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://r1ud5u8to345"
+path="res://.godot/imported/413-trash.png-728201d462d13a97a811f80edc73641c.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/413-trash.png"
+dest_files=["res://.godot/imported/413-trash.png-728201d462d13a97a811f80edc73641c.image"]
+
+[params]
+

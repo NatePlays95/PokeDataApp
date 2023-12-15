@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://dle8b47gyuoag"
+path="res://.godot/imported/493-normal.png-818748e13c398ca81b812f3c85ad8e4f.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/493-normal.png"
+dest_files=["res://.godot/imported/493-normal.png-818748e13c398ca81b812f3c85ad8e4f.image"]
+
+[params]
+

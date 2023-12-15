@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://dgihftcm0bdia"
+path="res://.godot/imported/555-zen.png-e6edf8959e26499751cbcf1f24754aeb.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/555-zen.png"
+dest_files=["res://.godot/imported/555-zen.png-e6edf8959e26499751cbcf1f24754aeb.image"]
+
+[params]
+

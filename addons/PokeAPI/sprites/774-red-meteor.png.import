@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://wbpu6ccq8wtd"
+path="res://.godot/imported/774-red-meteor.png-210f843cfa63c8487503b6a5f9e06e6c.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/774-red-meteor.png"
+dest_files=["res://.godot/imported/774-red-meteor.png-210f843cfa63c8487503b6a5f9e06e6c.image"]
+
+[params]
+

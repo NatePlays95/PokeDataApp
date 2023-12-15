@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://b1adehguyagrl"
+path="res://.godot/imported/10008.png-83f820d24f5aed207a3fb5f24ae685df.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/10008.png"
+dest_files=["res://.godot/imported/10008.png-83f820d24f5aed207a3fb5f24ae685df.image"]
+
+[params]
+

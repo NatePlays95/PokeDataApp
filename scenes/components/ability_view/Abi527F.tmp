@@ -1,0 +1,88 @@
+[gd_scene load_steps=3 format=3 uid="uid://tsitt4tf2t4y"]
+
+[ext_resource type="StyleBox" uid="uid://bfnysamfmuo6b" path="res://assets/themes/stylebox/flat.tres" id="1_r2l56"]
+[ext_resource type="Script" path="res://scenes/components/ability_view/AbilityList.gd" id="2_xpjhf"]
+
+[node name="AbilityList" type="PanelContainer"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 32.0
+grow_horizontal = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("1_r2l56")
+script = ExtResource("2_xpjhf")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="LabelTitle" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+mouse_filter = 1
+theme_override_font_sizes/font_size = 30
+text = "Abilities"
+horizontal_alignment = 1
+
+[node name="HBoxAbilities" type="HBoxContainer" parent="VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+
+[node name="BtnAbility1" type="Button" parent="VBoxContainer/HBoxAbilities"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 1
+text = "Oblivious"
+
+[node name="BtnAbility2" type="Button" parent="VBoxContainer/HBoxAbilities"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 1
+text = "Simple"
+
+[node name="BtnSeparator" type="VSeparator" parent="VBoxContainer/HBoxAbilities"]
+visible = false
+layout_mode = 2
+mouse_filter = 1
+
+[node name="BtnAbilityHidden" type="Button" parent="VBoxContainer/HBoxAbilities"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 1
+text = "Own Tempo (hidden)"
+
+[node name="PopupPanel" type="PopupPanel" parent="."]
+title = "Ability"
+initial_position = 1
+size = Vector2i(500, 303)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PopupPanel"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 496.0
+offset_bottom = 299.0
+
+[node name="LabelPopupAbilityName" type="Label" parent="PopupPanel/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 1
+mouse_filter = 1
+theme_override_font_sizes/font_size = 30
+text = "Oblivious"
+horizontal_alignment = 1
+
+[node name="LabelPopupEffect" type="Label" parent="PopupPanel/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+text = "Oblivious makes the Pokémon immune to gender-based moves and abilities, specifically Attract, Captivate and Cute Charm."
+autowrap_mode = 2
+
+[connection signal="pressed" from="VBoxContainer/HBoxAbilities/BtnAbility1" to="." method="_on_btn_ability_1_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxAbilities/BtnAbility2" to="." method="_on_btn_ability_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxAbilities/BtnAbilityHidden" to="." method="_on_btn_ability_hidden_pressed"]

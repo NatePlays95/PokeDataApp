@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://egyqtnv8kd5d"]
+
+[ext_resource type="Texture2D" uid="uid://bhwj25j0dqhxm" path="res://assets/images/icons/pokeball_line_small_disabled.svg" id="1_btsfl"]
+[ext_resource type="Texture2D" uid="uid://bpooih56x3gvi" path="res://assets/images/icons/pokeball_full.png" id="2_qar2u"]
+
+[node name="FlavorTextButton" type="TextureButton"]
+offset_right = 64.0
+offset_bottom = 64.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 1
+toggle_mode = true
+texture_normal = ExtResource("1_btsfl")
+texture_pressed = ExtResource("2_qar2u")
+stretch_mode = 0

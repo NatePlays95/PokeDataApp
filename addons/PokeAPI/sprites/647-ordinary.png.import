@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://bnv0xxlkg4vds"
+path="res://.godot/imported/647-ordinary.png-45d10b0ddaa3b718eb9af88c4c31f85c.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/647-ordinary.png"
+dest_files=["res://.godot/imported/647-ordinary.png-45d10b0ddaa3b718eb9af88c4c31f85c.image"]
+
+[params]
+

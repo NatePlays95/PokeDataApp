@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://bjv5thhvarche"
+path="res://.godot/imported/246.png-102cd012892f5bce04be99d217e16c0e.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/246.png"
+dest_files=["res://.godot/imported/246.png-102cd012892f5bce04be99d217e16c0e.image"]
+
+[params]
+

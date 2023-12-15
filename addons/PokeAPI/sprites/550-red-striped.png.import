@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://clhycyyv5xb2x"
+path="res://.godot/imported/550-red-striped.png-8f1d5bbb3be2389d5853de33a4dfc2a5.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/550-red-striped.png"
+dest_files=["res://.godot/imported/550-red-striped.png-8f1d5bbb3be2389d5853de33a4dfc2a5.image"]
+
+[params]
+

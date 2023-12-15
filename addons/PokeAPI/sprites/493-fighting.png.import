@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://cyd4ss3mrsb8t"
+path="res://.godot/imported/493-fighting.png-9c27881af377f12c1d3e7d94ada4fa42.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/493-fighting.png"
+dest_files=["res://.godot/imported/493-fighting.png-9c27881af377f12c1d3e7d94ada4fa42.image"]
+
+[params]
+

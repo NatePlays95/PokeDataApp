@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://c2qrdrg77upek"
+path="res://.godot/imported/386-speed.png-e6d7ba4ab78433ded6c2c0bdab68d449.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/386-speed.png"
+dest_files=["res://.godot/imported/386-speed.png-e6d7ba4ab78433ded6c2c0bdab68d449.image"]
+
+[params]
+

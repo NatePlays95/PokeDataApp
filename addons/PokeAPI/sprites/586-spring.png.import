@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://ctoa31e5rl630"
+path="res://.godot/imported/586-spring.png-c6bb6c5a92d1d0bcead047e92bd07411.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/586-spring.png"
+dest_files=["res://.godot/imported/586-spring.png-c6bb6c5a92d1d0bcead047e92bd07411.image"]
+
+[params]
+

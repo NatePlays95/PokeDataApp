@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://cvts2fme8gojf"
+path="res://.godot/imported/710-average.png-c0da92e77d45149c5fc0d6f7016a1e66.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/710-average.png"
+dest_files=["res://.godot/imported/710-average.png-c0da92e77d45149c5fc0d6f7016a1e66.image"]
+
+[params]
+

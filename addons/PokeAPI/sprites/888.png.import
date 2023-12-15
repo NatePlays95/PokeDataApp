@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://hgx2tubf31wa"
+path="res://.godot/imported/888.png-4e403b9cd730263b0aa6c640390bef4a.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/888.png"
+dest_files=["res://.godot/imported/888.png-4e403b9cd730263b0aa6c640390bef4a.image"]
+
+[params]
+

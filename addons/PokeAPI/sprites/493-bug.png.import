@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://25u3pjind168"
+path="res://.godot/imported/493-bug.png-ac54ff28c3736eadee135084be848259.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/493-bug.png"
+dest_files=["res://.godot/imported/493-bug.png-ac54ff28c3736eadee135084be848259.image"]
+
+[params]
+

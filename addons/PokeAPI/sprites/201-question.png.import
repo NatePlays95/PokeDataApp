@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://dmm81nuaaryhr"
+path="res://.godot/imported/201-question.png-57d30c8305247048d64c381e9d09d20e.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/201-question.png"
+dest_files=["res://.godot/imported/201-question.png-57d30c8305247048d64c381e9d09d20e.image"]
+
+[params]
+

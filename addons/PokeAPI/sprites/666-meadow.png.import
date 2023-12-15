@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://mch034gbj2oc"
+path="res://.godot/imported/666-meadow.png-1dabff3530d6e6895d380e4e26b7d34d.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/666-meadow.png"
+dest_files=["res://.godot/imported/666-meadow.png-1dabff3530d6e6895d380e4e26b7d34d.image"]
+
+[params]
+

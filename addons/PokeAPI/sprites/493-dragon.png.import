@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://pvhjhly7d6jh"
+path="res://.godot/imported/493-dragon.png-75f2def07d3417911010a495627c7d7b.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/493-dragon.png"
+dest_files=["res://.godot/imported/493-dragon.png-75f2def07d3417911010a495627c7d7b.image"]
+
+[params]
+

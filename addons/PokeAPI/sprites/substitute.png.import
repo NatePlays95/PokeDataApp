@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://cncnidgkp5vcg"
+path="res://.godot/imported/substitute.png-65802ae5871b3721a6973b823ca0a1ac.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/substitute.png"
+dest_files=["res://.godot/imported/substitute.png-65802ae5871b3721a6973b823ca0a1ac.image"]
+
+[params]
+

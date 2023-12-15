@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://dng2auduxamoh"
+path="res://.godot/imported/80.png-d57ac601b62d3823d7fadb5a0faad415.image"
+
+[deps]
+
+source_file="res://addons/PokeAPI/sprites/80.png"
+dest_files=["res://.godot/imported/80.png-d57ac601b62d3823d7fadb5a0faad415.image"]
+
+[params]
+
